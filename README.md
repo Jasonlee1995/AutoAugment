@@ -11,7 +11,9 @@ Docker Image
 
 
 ## 1. Implementation Details
+- functional.py : augmentation functions for augmentation class
 - model.py : Wide ResNet model
+- policy.py : augmentation policy v0, v1, v2, v3, vtest
 - train.py : train Wide ResNet
 - utils.py : count correct prediction
 - AutoAugment - Wide ResNet 28 10 - Cifar 10 (Single) : install library, download dataset, preprocessing, train and result
